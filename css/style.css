@@ -1,0 +1,208 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}¨
+body {
+  background: white;
+  margin: 0ox;
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  background-color: #05a5ff;
+  height: 130px;
+  padding-top: 40px; 
+  }
+.container-grid {
+  width: 1200px; 
+  margin: 0 auto;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.menu {
+  width: 750px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.menu a:hover {
+  text-decoration: none;
+}
+
+.buscar {
+  display: flex;
+  padding: 0 5px;
+}
+#buscar {
+  width: auto;
+  justify-content: end;
+  padding-right: 150px;
+ }
+
+input {
+  width: 300px;
+  height: 25px;
+  background-color: white;
+  padding: 3px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+}
+
+
+.banner {
+  margin: 20px;
+  margin-left: 350px;    
+}
+
+.botao {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; 
+
+}
+.botao a {
+  color: white;
+  font-family: 'roboto', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  background-color: #ff6b35;
+  padding: 8px;
+  border-radius: 15px;
+
+}
+.botao a:hover {
+  text-decoration: none;
+}
+.produto {
+ justify-content: space-between;
+ display: flex;
+ margin-top: 30px;
+ padding-right: auto;
+}
+.produto img {
+  width: 250px;
+  height: auto;
+}
+.card{
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 4px;
+  text-align: center;
+}
+.card a{
+  color: white;
+  font-family: 'roboto', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: #ff6b35;
+  padding: 8px;
+  border-radius: 15px;
+ }
+.card a:hover{
+  text-decoration: none;
+}
+
+.anuncio {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 30px;
+  padding-right: 5px;
+  align-items: center;
+  text-align: center;
+
+ }
+ .anuncio img {
+   width: 580px;
+   height: 200px;
+ }
+ .anuncio h2 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'roboto', sans-serif;
+ }
+
+footer {
+  background-color: #05a5ff;
+
+} 
+
+.rodape div {
+  width: 500px;
+  height: 300px;
+}
+
+
+.rodape {
+  justify-content: space-between;
+  display: flex;
+  margin-top: 30px;
+  padding-right: 5px;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'roboto', sans-serif;
+}
+.rodape ul{ 
+  list-style: none;
+  text-decoration: none;
+}
+.rodape a{
+  color: black;
+}
+.rodape a:hover{
+  text-decoration: none;
+}
+.imglogo {
+   line-height:  10px;
+}
+
+.imglogo img {
+  width: 300px;
+  height: auto;
+}
+
+.fim {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.redesocial h2 {
+  font-family: 'roboto', sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.redesocial img{
+  width: 80px;
+  height: 50px;
+}
+.imgpag img {
+  width: 150px;
+  height: 50px;
+}
+
+
+
+
+

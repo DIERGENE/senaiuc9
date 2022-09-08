@@ -1,0 +1,45 @@
+body{
+    background-color: #05a5ff;
+        color: white;
+}
+
+header{
+    padding-top: 25px; 
+}
+
+.container-grid{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+}
+
+body form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+body h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+.formularios{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login form{
+    text-align: left;
+}
+
+.cadastro form{
+    text-align: right;
+}
